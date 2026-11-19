@@ -10,15 +10,21 @@ class Plant:
         else:
             self._age = p_age
 
-    def set_height(self, p_height: int) -> None:
-        if p_height < 0:
+    def set_height(self, new_height: int) -> None:
+        if new_height < 0:
             print(f"{self._name}: Error, height can’t be negative")
             print("Height update rejected")
+            return
+        self._height = new_height
+        print(f"Height updated:  {self._height:.0f}cm")
 
-    def set_age(self, p_age: int) -> None:
-        if p_age < 0:
+    def set_age(self, new_age: int) -> None:
+        if new_age < 0:
             print(f"{self._name}: Error, age can’t be negative")
             print("Age update rejected")
+            return
+        self._age = new_age
+        print(f"Age updated:  {self._age}days")
 
     def get_height(self) -> int:
         return self._height
