@@ -9,10 +9,10 @@ class Plant:
 
 
 if __name__ == "__main__":
-    p1 = Plant("Rose", 25, 30)
-    p2 = Plant("Sunflower", 80, 45)
-    p3 = Plant("Cactus", 30, 120)
+    p_one = Plant("Rose", 25, 30)
+    p_two = Plant("Sunflower", 80, 45)
+    p_three = Plant("Cactus", 30, 120)
     print("=== Garden Plant Registry ===")
-    p1.show()
-    p2.show()
-    p3.show()
+    p_one.show()
+    p_two.show()
+    p_three.show()
