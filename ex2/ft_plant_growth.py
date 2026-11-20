@@ -16,12 +16,12 @@ class Plant:
 
 
 if __name__ == "__main__":
-    p1 = Plant("Rose", 25, 30)
+    p_one = Plant("Rose", 25, 30)
     print("=== Garden Plant Growth ===")
-    p1.show()
+    p_one.show()
     for i in range(1, 8):
         print(f"=== Day {i} ===")
-        p1.grow(0.8)
-        p1.age()
-        p1.show()
-    print(f"Growth this week: {p1.f_height - p1.i_height:.1f}cm")
+        p_one.grow(0.8)
+        p_one.age()
+        p_one.show()
+    print(f"Growth this week: {p_one.f_height - p_one.i_height:.1f}cm")
