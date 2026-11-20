@@ -16,13 +16,13 @@ class Plant:
 
 
 if __name__ == "__main__":
-    p1 = Plant("Rose", 25, 30)
-    p2 = Plant("Oak", 200, 350)
-    p3 = Plant("Cactus", 45, 60)
-    p4 = Plant("Sunflower", 75, 40)
-    p5 = Plant("Fern", 15, 130)
+    p_one = Plant("Rose", 25, 30)
+    p_two = Plant("Oak", 200, 350)
+    p_three = Plant("Cactus", 45, 60)
+    p_four = Plant("Sunflower", 75, 40)
+    p_five = Plant("Fern", 15, 130)
     print("=== Plant Factory Output ===")
-    plants = [p1, p2, p3, p4, p5]
+    plants = [p_one, p_two, p_three, p_four, p_five]
 
     for i in range(5):
         print("Created: ", end="")
